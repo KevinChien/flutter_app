@@ -1,0 +1,39 @@
+name: my_calculator_app
+description: A simple calculator app with history feature.
+
+# 版本號
+version: 1.0.0
+
+# 開發者資訊
+author: Your Name
+
+# 首頁
+homepage: https://example.com
+
+# 環境設置
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# 依賴項目
+dependencies:
+  flutter:
+    sdk: flutter
+  # 如果需要，可以在這裡添加其他相依套件
+  math_expressions: ^2.0.0
+
+# 開發相依項目
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# 設置應用程式圖示
+flutter:
+  assets:
+    - assets/
+
+# 用於 Android 的應用程式圖示
+androidPackage: com.example.my_calculator_app
+# 用於 iOS 的應用程式圖示
+iosBundleIdentifier: com.example.myCalculatorApp
+
+# 其他配置可以在這裡添加
